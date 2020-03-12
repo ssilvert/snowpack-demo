@@ -1,0 +1,21 @@
+{
+  "name": "snowpack-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "npx servor --reload",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "npm:@pika/react@^16.13.1",
+    "react-dom": "npm:@pika/react-dom@^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.8.7",
+    "snowpack": "^1.6.0"
+  }
+}
